@@ -17,7 +17,7 @@ variables:
   environmentName: 'uat'
 
   # Agent VM image name
-  pool: Localbly Pipelines
+  pool: Azure Pipelines
 
 stages:
 - stage: Build
