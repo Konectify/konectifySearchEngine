@@ -33,10 +33,7 @@ stages:
       displayName: 'Install Node.js'
     - script: |
         npm install
-        displayName: 'install dependencies'
-    - script: |
         npm run build 
-        displayName: 'build'
       #displayName: 'Install dependencies and build'
     - task: ArchiveFiles@2
       displayName: 'Archive files'
